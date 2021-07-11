@@ -1,4 +1,6 @@
-# svelte app
+# 🌍 clean-css website
+
+This repo contains the source code of the https://clean-css.github.io/ website.
 
 ## Get started
 
