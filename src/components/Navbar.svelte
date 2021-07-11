@@ -31,20 +31,12 @@
 		display: inline-block;
 	}
 
-	h1 {
-		line-height: 2.5em;
-	}
-
 	li {
 		display: block;
 	}
 
 	nav {
 		z-index: 2;
-	}
-
-	.navbar-brand img {
-		width: 25%
 	}
 
 	a {
