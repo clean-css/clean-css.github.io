@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Updates clean-css dependency to version 5.2.4
+
 ## [1.1.3] - 2022-01-26
 ### Changed
 - Updates clean-css dependency to version 5.2.3
