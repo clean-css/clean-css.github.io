@@ -8,8 +8,8 @@
   export let onSave
 
   const VALIDATION_ANIMATION_DURATION = 700
-  const DOWNLOAD_MINIFIED_CSS = "Download minified css"
-  const COPY_MINIFIED_CSS = "Copy minified css to clipboard"
+  const DOWNLOAD_MINIFIED_CSS = 'Download minified css'
+  const COPY_MINIFIED_CSS = 'Copy minified css to clipboard'
 
   let isSavedToClipboard = false
   let isSaved = false
