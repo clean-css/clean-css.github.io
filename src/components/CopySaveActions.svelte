@@ -8,6 +8,9 @@
   export let onSave
 
   const VALIDATION_ANIMATION_DURATION = 700
+  const DOWNLOAD_MINIFIED_CSS = "Download minified css"
+  const COPY_MINIFIED_CSS = "Copy minified css to clipboard"
+
   let isSavedToClipboard = false
   let isSaved = false
 
@@ -31,10 +34,20 @@
 </script>
 
 <div class={`d-flex ${className} copy-save-actions`}>
-  <button class="btn btn-link p-1" on:click={saveToClipboard}>
+  <button
+    class="btn btn-link p-1"
+    title={COPY_MINIFIED_CSS}
+    aria-label={COPY_MINIFIED_CSS}
+    on:click={saveToClipboard}
+  >
     <Icon name={isSavedToClipboard ? 'check' : 'clipboard'}/>
   </button>
-  <button class="btn btn-link p-1 ms-1" on:click={save}>
+  <button
+    class="btn btn-link p-1 ms-1"
+    title={DOWNLOAD_MINIFIED_CSS}
+    aria-label={DOWNLOAD_MINIFIED_CSS}
+    on:click={save}
+  >
     <Icon name={isSaved ? 'check' : 'download'}/>
   </button>
 </div>

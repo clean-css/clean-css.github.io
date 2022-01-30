@@ -46,7 +46,13 @@
   </button>
 
   <div id="result" class="position-relative ms-2 flex-grow-1 d-flex p-0 align-items-center" style="width: 0;">
-    <input class="form-control" type="text" disabled={optimizedInput === undefined} bind:value={optimizedInput}>
+    <input
+      type="text"
+      class="form-control"
+      aria-hidden={true}
+      disabled={optimizedInput === undefined}
+      bind:value={optimizedInput}
+    >
     {#if optimizedInput !== undefined}
       <SavedSizeBadge size={savedSize} class="text-nowrap ms-2" />
       <CopySaveActions
