@@ -3730,6 +3730,11 @@ svelte-dev-helper@^1.1.9:
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
   integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
 
+svelte-emoji@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/svelte-emoji/-/svelte-emoji-1.0.2.tgz#43212210bc77fcd766cc846022a98c787a2a6cbd"
+  integrity sha512-vJCBsgrSKZONxBn7ICZxCKzDRaJk7Bi3dALwa3PrIiPS8DP8Fw64N38EuuY90eKNuLmOm4DLNRM+hSeH0V2G5g==
+
 svelte-file-dropzone@^0.0.15:
   version "0.0.15"
   resolved "https://registry.yarnpkg.com/svelte-file-dropzone/-/svelte-file-dropzone-0.0.15.tgz#6145fbafc448ea47ec803303641246efdb31cae6"
