@@ -1,6 +1,8 @@
 <script>
   import { saveAs } from 'file-saver'
   import * as CleanCSS from 'clean-css'
+  import Emoji from 'svelte-emoji'
+
   import CopySaveActions from './CopySaveActions.svelte'
   import SavedSizeBadge from './SavedSizeBadge.svelte'
 
@@ -34,7 +36,14 @@
 
 <textarea bind:value={input} class="form-control" rows="6" placeholder="enter your raw css here to optimize it..."></textarea>
 <div class="row mt-2">
-  <button class="btn btn-primary d-inline" style="background-color: #27AAE1;" on:click={optimize}>optimize ➜</button>
+  <button
+    class="btn btn-primary d-inline"
+    style="background-color: #27AAE1;"
+    on:click={optimize}
+  >
+    optimize
+    <Emoji symbol="➜" />
+  </button>
 
   <div id="result" class="position-relative ms-2 flex-grow-1 d-flex p-0 align-items-center" style="width: 0;">
     <input class="form-control" type="text" disabled={optimizedInput === undefined} bind:value={optimizedInput}>
