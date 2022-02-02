@@ -35,4 +35,4 @@
   }
 </style>
 
-<img src={icons[name]} class={`icon ${className}`} alt={`Icon ${name}`} />
+<img src={icons[name]} class={`icon ${className}`} alt="" />

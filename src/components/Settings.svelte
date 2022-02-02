@@ -11,8 +11,9 @@
 
 <div class="settings">
   <div class="d-flex justify-content-end">
-    <button class="btn mb-2" on:click={toggleOpen}>
+    <button class="btn btn-outline-secondary mb-2 d-flex bg-light text-dark" on:click={toggleOpen}>
       <Icon name={open ? 'gear-highlighted' : 'gear'}/>
+      <p class="m-0 ms-1">Settings</p>
     </button>
   </div>
 
