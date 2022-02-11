@@ -4,17 +4,18 @@ This repo contains the source code of the https://clean-css.github.io/ website.
 
 ## Get started
 
-Install the dependencies...
+Install the dependencies by using [yarn](https://yarnpkg.com/)...
 
 ```bash
-cd svelte-app
-npm install
+yarn install
+# or use: npm install
 ```
 
-...then start webpack:
+...then start webpack-dev-server:
 
 ```bash
-npm run start
+yarn start
+# or use: npm run start
 ```
 
 Navigate to [localhost:8080](http://localhost:8080).
